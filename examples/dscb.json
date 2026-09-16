@@ -1,0 +1,28 @@
+{
+  "name": "DeSci Basket",
+  "symbol": "DSCI",
+  "description": "Basket of Decentralized Science tokens on the Base Blockchain",
+  "icon": "/home/coby/Downloads/dscb-icon.png",
+  "chain": "base",
+  "weightsBps": [4057, 1712, 627, 393, 331, 280, 263, 244, 235, 214, 209, 207, 207, 206, 205, 204, 203, 203],
+  "tokens": [
+    {"symbol": "TRAC", "address": "0xa81a52b4dda010896cdd386c7fbdc5cdc835ba23"},
+    {"symbol": "BIO", "address": "0x226a2fa2556c48245e57cd1cba4c6c9e67077dd2"},
+    {"symbol": "TIG", "address": "0x0c03ce270b4826ec62e7dd007f0b716068639f7b"},
+    {"symbol": "RSC", "address": "0xfbb75a59193a3525a8825bebe7d4b56899e2f7e1"},
+    {"symbol": "wL1", "address": "0xe6522a891702cd2e8cc2a5182638c9da1dd44b22"},
+    {"symbol": "PEPTAI", "address": "0x54f16bd3996169914c84dbb2a16635100cf48a0a"},
+    {"symbol": "AUBRAI", "address": "0x9d56c29e820dd13b0580b185d0e0dc301d27581d"},
+    {"symbol": "SLC", "address": "0x6bd83abc39391af1e24826e90237c4bd3468b5d2"},
+    {"symbol": "CPHY", "address": "0x08df470d41c11ba5cb60242747d76c65ca52c94c"},
+    {"symbol": "HOLI", "address": "0x896a0b1f23479e4438ad086c0bda159361294250"},
+    {"symbol": "HAIR", "address": "0x3a38dde9824e18cc4c0a147824f95bf5d608f0b3"},
+    {"symbol": "DICK", "address": "0xe183b1a4dd59ca732211678eca1836ee35bce582"},
+    {"symbol": "SCI", "address": "0x25e0a7767d03461eaf88b47cd9853722fe05dfd3"},
+    {"symbol": "GALE", "address": "0xd9bf9127e37d33514aa485ff7d3b26f1f5298411"},
+    {"symbol": "RLV", "address": "0x03699469849a6cf876a65b4fd01fbd663c401127"},
+    {"symbol": "VITA", "address": "0x490a4b510d0ea9f835d2df29eb73b4fca5071937"},
+    {"symbol": "VITAFOXO", "address": "0xe8f802b0cb13adf1a4333b541d4d3f703b8a69fa"},
+    {"symbol": "HEMPY", "address": "0xe18c07d858fb1bbf8c06fd78c13b86afd3d04e28"}
+  ]
+}

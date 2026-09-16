@@ -1,0 +1,17 @@
+{
+  "chainId": 8453,
+  "network": "Base",
+  "factory": "0xb7dEb6E89930a8FA47Fd4eBB3D12E6d65A856A26",
+  "throwawayBasket": "0x090CAF2E5207dd1736ae8a0F6Ed4B2Ddf53b9050",
+  "throwawayBasketTokens": ["BIO", "TRAC", "TIG"],
+  "throwawayBasketWeightsBps": [3334, 3333, 3333],
+  "throwawayCashEth": "1000000000000000",
+  "routedBasket": "0x5ef8C8D545622933EF6A78D3e307022B1B37c4ab",
+  "zeroExAdapter": "0xb0cabA8b945B88481B951BD325730da6b872b2F3",
+  "zeroExVenue": "0x0000000000001ff3684f28c67538d4d072c22734",
+  "legacyNativeInputAdapter": "0x3Cb877E9F4a2319f3ff56245A0515B35C34A859a",
+  "legacyZeroExVenue": "0x4f6f91599858bf0d19fabcf2c5d591fe13f7c059",
+  "usdc": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "deployer": "0x770d41a8783553C70392252a2A074f3784369649",
+  "purpose": "throwaway real-chain testing"
+}

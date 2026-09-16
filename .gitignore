@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+
+out/
+cache/
+broadcast/
+crytic-export/
+slither_results.json
+medusa-corpus/
+medusa-logs/
+
+quote-service/node_modules/
+quote-service/.wrangler/
+*.log
+
+deployments/*-local.json

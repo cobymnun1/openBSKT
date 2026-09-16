@@ -1,0 +1,72 @@
+{
+  "fuzzing": {
+    "workers": 4,
+    "workerResetLimit": 50,
+    "timeout": 120,
+    "testLimit": 10000,
+    "shrinkLimit": 5000,
+    "callSequenceLength": 30,
+    "pruneFrequency": 5,
+    "corpusDirectory": "medusa-corpus",
+    "coverageEnabled": true,
+    "coverageFormats": ["html", "lcov"],
+    "targetContracts": ["MedusaOpenBSKTHarness"],
+    "constructorArgs": {},
+    "deployerAddress": "0x30000",
+    "senderAddresses": ["0x10000", "0x20000", "0x30000"],
+    "testing": {
+    "stopOnFailedTest": true,
+    "stopOnFailedContractMatching": false,
+    "stopOnNoTests": true,
+    "testAllContracts": false,
+    "testViewMethods": true,
+    "verbosity": 1,
+    "assertionTesting": {
+      "enabled": true,
+      "panicCodeConfig": {
+        "failOnCompilerInsertedPanic": false,
+        "failOnAssertion": true,
+        "failOnArithmeticUnderflow": true,
+        "failOnDivideByZero": true
+      }
+    },
+      "propertyTesting": {
+      "enabled": true,
+      "testPrefixes": ["property_"]
+      }
+    }
+  },
+  "chainConfig": {
+    "codeSizeCheckDisabled": true,
+    "cheatCodes": {
+      "cheatCodesEnabled": false,
+      "enableFFI": false
+    },
+    "skipAccountChecks": true,
+    "forkConfig": {
+      "forkModeEnabled": false,
+      "rpcUrl": "",
+      "rpcBlock": 1,
+      "poolSize": 20
+    }
+  },
+  "compilation": {
+    "platform": "crytic-compile",
+    "platformConfig": {
+      "target": "test/MedusaHarness.sol",
+      "solcVersion": "",
+      "exportDirectory": "",
+      "args": []
+    }
+  },
+  "slither": {
+    "useSlither": false,
+    "cachePath": "slither_results.json",
+    "args": []
+  },
+  "logging": {
+    "level": "info",
+    "logDirectory": "medusa-logs",
+    "noColor": true
+  }
+}
