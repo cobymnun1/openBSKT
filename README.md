@@ -123,6 +123,26 @@ npm run check
 It only fetches 0x quote data and constructs validated route-plan values. It
 does not sign transactions or hold user funds.
 
+For 0x routes, use the allowance-holder quote endpoint unless your adapter
+implements Permit2 signing:
+
+```sh
+ZERO_EX_QUOTE_URL=https://api.0x.org/swap/allowance-holder/quote
+```
+
+## Base test deployment
+
+The repository includes a throwaway Base deployment for reviewers:
+
+- Factory:
+  `0xb7dEb6E89930a8FA47Fd4eBB3D12E6d65A856A26`
+- Routed test basket:
+  `0x5ef8C8D545622933EF6A78D3e307022B1B37c4ab`
+
+These addresses are testing fixtures, not recommended production addresses.
+Never copy the local `.env` file into a public repository; use
+`.env.example` as the template.
+
 ## Example configuration
 
 `examples/dscb.json` contains a separate 18-token example based on the local
